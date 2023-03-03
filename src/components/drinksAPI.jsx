@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Drink from '../views/Drinks';
 
 
-const Drinks_API = () => {
+const DrinksAPI = () => {
 
   const [drink, setDrinks] = useState([]);
   const [search, setSearch] = useState("");
@@ -72,4 +72,4 @@ const Drinks_API = () => {
   )
 }
 
-export default Drinks_API;
+export default DrinksAPI;
