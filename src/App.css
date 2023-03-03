@@ -1,19 +1,10 @@
 .App {
   text-align: center;
+  background-color: #282c34;
+  color: white;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+.App {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,15 +15,75 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  color: salmon;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.recipe{
+  border-radius: 10px;
+  box-shadow: 10px 10px 25px #1b1a1a;
+  margin: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #282c34;
+  align-items: center;
+  min-width: 20vh;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+  font-size: 18px; 
+}
+
+
+
+.image{
+  border-radius: 10px;
+  margin:0px 0px 20px 0px;
+  box-shadow: 10px 10px 25px #1b1a1a;
+}
+
+.search-form{
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar {
+  width: 50%;
+  border:none;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 15px 10px rgb(63, 60, 60);
+
+}
+.search-button { 
+  background: #4da1ab;
+  border: 5px solid whitesmoke;
+  border-radius: 8px;
+  padding: 10px 20px;
+  color: whitesmoke;
+  font-size: larger;
+  margin: 0 0 0 10px;
+}
+.search-button:hover {
+  background-color: lightsalmon ;
+}
+
+/* Navbar */
+.nav {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 24px;
+  list-style-type: none;
+  font-size: 1.6em;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: italic;
+  
+}
+
+a {
+  margin-right: 150px;
+  align-items: center;
 }

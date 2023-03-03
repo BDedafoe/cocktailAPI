@@ -1,0 +1,64 @@
+.drinks {
+    border-radius: 10px;
+    box-shadow: 10px 10px 25px #1b1a1a; 
+    background-color: #282c34;
+    text-shadow: 2px 2px 2px black;
+    font-size: 10px;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.drinks_list {
+    color: #eee;
+    background: rgba(24,24,27, 0.6);
+    padding:15px;
+    border-radius: 10px;
+    margin: 10px 0;
+    border: 1px solid #eee;
+}
+
+img {
+    border-radius: 20px;
+    margin: 0px 10px 10px 10px;
+    box-shadow: 3px 3px 5px #f5f2f2;
+    width: 30vh;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: aqua;
+}
+
+.instructions_container {
+    text-align: center;
+    font-size: 16px;
+    justify-content: center;
+    max-width: 50vh;
+}
+
+.instructions_container h3 {
+    color: salmon;
+}
+
+.prepare {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    font-size: 18px;
+    padding: 25px;
+}
+
+.left_side {
+    flex: 55%;
+    color: aqua;
+}
+
+.right_side {
+    text-align: left;
+    flex: 45%;
+}
