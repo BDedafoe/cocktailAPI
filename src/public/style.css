@@ -31,7 +31,7 @@ img {
 h1 {
     text-align: center;
     font-size: 30px;
-    color: aqua;
+    color:  #22c3d4;
 }
 
 .instructions_container {
@@ -55,7 +55,7 @@ h1 {
 
 .left_side {
     flex: 55%;
-    color: aqua;
+    color: #22c3d4;
 }
 
 .right_side {
