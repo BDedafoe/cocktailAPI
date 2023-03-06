@@ -15,17 +15,25 @@ const DrinksAPI = () => {
   }, [query])
 
   const getDrinks = async () => {
+    try {
     const response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=${query}`)
     const data = await response.json()
-    setDrinks(data.drinks) 
+    setDrinks(data.drinks);
+    } catch (error) {
+      console.log(error)
+    }
   }
 
   const getDrinksList = async () => {
+    try {
     const response = await fetch(`https://www.thecocktaildb.com/api/json/v1/1/search.php?s=${query}`)
     const data = await response.json()
     setDrinks(data.drinks) 
-
+    } catch (error) {
+      console.log(error)
+    }
   }
+  
 
   const updateSearch = (e) => {
     setSearch(e.target.value)
